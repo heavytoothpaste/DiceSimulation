@@ -1,0 +1,11 @@
+- Simple java.swing program that simulates two standard 6-sided dice rolling and will compute their sum. The rigged version is not a standard dice.
+- Created this program for a probability demo. I gave people blank bingo sheets and allowed them to choose what to fill each squares with. Then I used this simulation to roll 2 dice and find their sum. If the sum is on their bingo board, they get to cross that number off once. The ideas is that the most common numbers are $7\pm 2$. 
+- Then I did the same thing with the rigged dice.
+- Probability distribution of rigged dice is as follows: 
+  - 6: $\frac{6}{21}$
+  - 5: $\frac{5}{21}$
+  - 4: $\frac{4}{21}$
+  - 3: $\frac{3}{21}$
+  - 2: $\frac{2}{21}$
+  - 1: $\frac{1}{21}$
+- Therefore the probability of rolling a number is proportional to that number.
